@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 1</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		#header{
+			width: 100%;
+			background-color: brown;
+			position: fixed;
+			top: 0;
+			color: #fff;
+			height: 5em;
+			z-index: 3 ;
+		}
+		#sidebar{
+			background: aquamarine;
+			position: relative;
+			top: 4em;
+			width: 30%;
+			float: left;
+			height: 100vh;
+		}
+		#content{
+			background: aliceblue;
+			position: relative;
+			top: 4em;
+			float: left;
+			width: 70%;
+			height: 100vh;
+			z-index: 9;
+		}
+		#footer{
+			background: black;
+			color: #fff;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="header">Sistem informasi Akademik PNP</h1>
+	<div id="sidebar">
+		<nav>
+			<ul>
+				<li><a href="#">Beranda</a></li>
+				<li><a href="#">Portofolio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Tentang Saya</a></li>
+				<li><a href="#">Kontak</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="content">
+		<h2>Judul ABC</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div id="footer">
+		Copyright 2022.SIAKAD PNP.<br/>
+		All Rights Reserved.<br/>
+		Developed by Naufal Asyraf.
+	</div>
+</body>
+</html>
